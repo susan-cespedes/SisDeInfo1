@@ -18,10 +18,11 @@
                     <nav id="nav" class="">
                         <ul id="links">
                             <li><a href="#inicio">INICIO</a></li>
-                            <li><a href="#sobremi">SOBRE MI</a></li>
+                            <li><a href="sobremi.html">SOBRE MI</a></li>
                             <li><a href="#habilidades">HOBBIES</a></li>
                             <li><a href="#proyectos">PELICULAS</a></li>
                             <li><a href="#proyectoos">LIBROS</a></li>
+                            <li><a href="contacto.html">CONTÁCTAME</a></li>
                         </ul>
                     </nav>
                     <div id="icono-nav">
@@ -61,15 +62,43 @@
         <div class="fila">
             <div class="servicio">
                <img src="./img/bailando_prev_ui.png" alt="">
-                <h4>BAILAR</h4>
+                <h4><a href="https://www.google.com/search?hl=es-US&cs=1&sxsrf=AJOqlzW76Pq80K5pJbpmx5cKeSQAYKNaLw:1677534094718&q=REVOLUTION+JAZZ+DANCE+-+RJD&ludocid=10995477338794011122&gsas=1&client=ms-android-samsung-gj-rev1&lsig=AB86z5UiWrWAX12SFRndt_XrKEOO&kgs=3e04eefe4399ac88&shndl=-1&shem=lssle&source=sh/x/kp/local/4" target="_blank">BAILAR</a></h4>
             </div>
             <div class="servicio">
                 <img src="./img/escuchar musica_prev_ui.png" alt="">
-                 <h4>ESCUCHAR MUSICA</h4>            
+                 <h4><a href="#modalmusica">ESCUCHAR MUSICA </a></h4>  
+                 <div id="modalmusica" class="modalDialog">
+                    <div id="marco">
+                    
+                    <a href="#close" title="Cerrar" class="close">X</a>
+                    <h2>MÚSICA</h2>
+                    <audio controls autoplay muted>
+                        
+                        <source src="audio/musica1.mp3" type="audio/mpeg">
+                     
+                      </audio>
+                   </div>
+                    </div>          
              </div>
              <div class="servicio">
                 <img src="./img/peliculas.jpg" alt="">
-                 <h4>VER PELICULAS</h4>
+                 <h4><a href="#modalvideo">VER PELICULAS</a></h4>
+                 <div id="modalvideo" class="modalDialog">
+                 <div id="marco">
+                 
+                 <a href="#close" title="Cerrar" class="close">X</a>
+                 <h2>Vídeo</h2>
+                 <iframe 
+                 width="560" 
+                 height="315" 
+                 src="https://www.youtube.com/embed/AxTFGCSsNoY" 
+                 title="YouTube video player" 
+                 frameborder="0" 
+                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                 allowfullscreen>
+                </iframe>
+                </div>
+                 </div>
              </div>
         </div>
     </section>
