@@ -322,7 +322,7 @@ html{
     text-transform: uppercase;
     color: black;
     text-decoration: underline;
-    text-decoration-color: #de4d60;
+    text-decoration-color: #de4d4d;
     text-decoration-thickness: 5px;
 }
 
@@ -374,7 +374,7 @@ html{
 #contacto {
     padding: 100px 15px;
     background-color: #f3f3f3; 
-    background: linear-gradient( rgba(0, 0,0 ,0.7), rgba(0, 0, 0, 0.1)), url("img/fondo2.jpg");
+    background: linear-gradient( rgba(0, 0,0 ,0.7), rgba(0, 0, 0, 0.1)), url("img/flores.jpg");
     background-size: cover;
     flex-wrap: wrap;
 
@@ -403,13 +403,13 @@ html{
     padding: 20px;
     border-radius: 20px;
     border: none;
-    border: 1px solid #919191;
+    border: 1px solid #2219d6;
 }
 #contacto .contenedor-form select {
     padding: 20px;
     border-radius: 20px;
     border: none;
-    border: 1px solid #919191;
+    border: 1px solid #2219d6;
 }
 
 #contacto .contenedor-form .mitad input {
@@ -424,9 +424,9 @@ html{
     text-align: center;
     font-size: 22px;
     text-transform: uppercase;
-    color: white;
+    color: rgb(219, 83, 83);
     text-decoration: underline;
-    text-decoration-color: #c8d1ff;
+    text-decoration-color: #c615ee;
     text-decoration-thickness: 5px;
 }
 
@@ -439,7 +439,7 @@ html{
 }
 
 #contacto .btn-enviar:hover {
-    background-color: #111135;
+    background-color: #31b9c1;
     color: #ffffff;
 }
 
